@@ -263,7 +263,6 @@ header {
   width: 90%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 
 .extension-text {
@@ -537,6 +536,10 @@ header {
 
   .swimlane-content{
     margin: auto;
+  }
+
+  .extenxion-content{
+    flex-direction: column;
   }
 
   .extension-grid{
